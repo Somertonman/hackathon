@@ -28,22 +28,17 @@ The dataset curated and structured into three age groups (under 18, 18-65 and 65
 
 ## Model 
 
-### References
+### Motivation
 
-*   Activation
+ResNet was chosen for model training. A residual neural network (ResNet) is an artificial neural network (ANN) of a kind that builds on constructs known from pyramidal cells in the cerebral cortex. Residual neural networks do this by utilizing skip connections, or shortcuts to jump over some layers.
 
-https://towardsdatascience.com/7-popular-activation-functions-you-should-know-in-deep-learning-and-how-to-use-them-with-keras-and-27b4d838dfe6
 
-* Loss
+## References
 
-https://neptune.ai/blog/keras-loss-functions
-
-* Epochs
-
-https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9
-
-* Optimization
-
-https://towardsdatascience.com/neural-network-optimization-7ca72d4db3e0
-
-https://machinelearningmastery.com/recommendations-for-deep-learning-neural-network-practitioners/
+* ResNet https://en.wikipedia.org/wiki/Residual_neural_network
+* Architecture https://towardsdatascience.com/comprehensive-introduction-to-neural-network-architecture-c08c6d8e5d98
+* Activation https://towardsdatascience.com/7-popular-activation-functions-you-should-know-in-deep-learning-and-how-to-use-them-with-keras-and-27b4d838dfe6
+* Loss https://neptune.ai/blog/keras-loss-functions
+* Epochs https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9
+* Optimization https://towardsdatascience.com/neural-network-optimization-7ca72d4db3e0
+* Parameters tuning https://machinelearningmastery.com/recommendations-for-deep-learning-neural-network-practitioners/
