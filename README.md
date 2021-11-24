@@ -4,6 +4,9 @@
 
 Masks play a crucial role in protecting the health of individuals against respiratory diseases, as is one of the few precautions available for COVID-19 in the absence of worldwide vaccination. The other important thing is to protect the most vulnerable groups of people (usually, elderly) from exposing them to the excessive risk of attending public facilities with access control. In this work, we tried to provide a solution for dealing with the issue of image classification by face to provide instruments for government-related limitations. 
 
+![Person with face mask](https://www.pyimagesearch.com/wp-content/uploads/2020/05/face_mask_detection_featured.jpg)
+
+
 
 ## Team members:
 * Anastasiya Spirova
