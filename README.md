@@ -25,3 +25,25 @@ The dataset obtained and combined from various open data sources, including foll
 ### Structure
 
 The dataset curated and structured into three age groups (under 18, 18-65 and 65+) without initial test/train selection, which is achieved programmatically to allow manipulations with original data.
+
+## Model 
+
+### References
+
+*   Activation
+
+https://towardsdatascience.com/7-popular-activation-functions-you-should-know-in-deep-learning-and-how-to-use-them-with-keras-and-27b4d838dfe6
+
+* Loss
+
+https://neptune.ai/blog/keras-loss-functions
+
+* Epochs
+
+https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9
+
+* Optimization
+
+https://towardsdatascience.com/neural-network-optimization-7ca72d4db3e0
+
+https://machinelearningmastery.com/recommendations-for-deep-learning-neural-network-practitioners/
