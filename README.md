@@ -59,3 +59,4 @@ Its friendly methods make it a great tool to explore datasets, demonstrate machi
 * Epochs https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9
 * Optimization https://towardsdatascience.com/neural-network-optimization-7ca72d4db3e0
 * Parameters tuning https://machinelearningmastery.com/recommendations-for-deep-learning-neural-network-practitioners/
+* Batch size https://stats.stackexchange.com/questions/164876/what-is-the-trade-off-between-batch-size-and-number-of-iterations-to-train-a-neu
