@@ -2,10 +2,13 @@
 
 ## Description
 
+<a href= "http://207.154.237.158:8501/"><img src="imgs/webapp.png" height="400" align="right"></a>
+
+Automatic age estimation from facial images is one of the popular and challenging tasks that have different fields of applications such as controlling the content of the watched media depending on the customer's age. The main task of this project is to predict the age of a person from his or her facial attributes. For simplicity, the problem has been converted to a multiclass problem with classes as [1-18], [19-65] and [over 65].
+
 Masks play a crucial role in protecting the health of individuals against respiratory diseases, as is one of the few precautions available for COVID-19 in the absence of worldwide vaccination. The other important thing is to protect the most vulnerable groups of people (usually, elderly) from exposing them to the excessive risk of attending public facilities with access control. In this work, we tried to provide a solution for dealing with the issue of image classification by face to provide instruments for government-related limitations. 
 
-<img src="imgs/webapp.png" height="400">
-
+You can upload a photo of yourself or someone else, and the deep learning system analyzes the age of the face in the photo regardless of face mask. Supports face detection for both men and women and predicts actual age group. In order to get accurate result, please ensure the clarity and sufficient light of the photo.
 
 
 
