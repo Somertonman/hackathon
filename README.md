@@ -42,6 +42,9 @@ ResNet was chosen for model training. A residual neural network (ResNet) is an a
 
 ### Training and fitting
 
+<img src="imgs/loss_35_32.png" style="background-color:red;" />
+
+
 | Epochs  | Batch size.   | Image size   | DS updated | Loss                         | Accuracy                |
 | ------- | ------------- | ------------ | ---------  | ----                         | -------------           |
 |  35     | 32            |  [100x100]   |    v1      |![GitHub Light](imgs/loss_35_32.png)      | ![](imgs/acc_35_32.png)|
