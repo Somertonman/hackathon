@@ -42,12 +42,15 @@ ResNet was chosen for model training. A residual neural network (ResNet) is an a
 
 ### Training and fitting
 
-| Epochs  | Batch size.   | Image size   | Loss                      | Accuracy                |
-| ------- | ------------- | ------------ | -------------             | -------------           |
-|  35     | 32            |  [100x100]   | ![](imgs/loss_35_32.png)  | ![](imgs/acc_35_32.png)|
-|  35     | 64            |  [100x100]   | ![](imgs/loss_35_64.png)  | ![](imgs/acc_35_64.png)|
-|  64     | 64            |  [100x100]   | ![](imgs/loss_64_64.png)  | ![](imgs/acc_64_64.png)|
-|  64     | 64            |  [200x200]   | ![](imgs/loss_64_64_200.png)  | ![](imgs/acc_64_64_200.png)|
+| Epochs  | Batch size.   | Image size   | DS updated | Loss                         | Accuracy                |
+| ------- | ------------- | ------------ | ---------  | ----                         | -------------           |
+|  35     | 32            |  [100x100]   |    v1      |![](imgs/loss_35_32.png)      | ![](imgs/acc_35_32.png)|
+|  35     | 64            |  [100x100]   |    v1      |![](imgs/loss_35_64.png)      | ![](imgs/acc_35_64.png)|
+|  64     | 64            |  [100x100]   |    v1      |![](imgs/loss_64_64.png)      | ![](imgs/acc_64_64.png)|
+|  64     | 64            |  [200x200]   |    v1      |![](imgs/loss_64_64_200.png)  | ![](imgs/acc_64_64_200.png)|
+|  64     | 64            |  [200x200]   |    v2      |![](imgs/loss_64_64_200.png)  | ![](imgs/acc_64_64_200.png)|
+|  64     | 64            |  [200x200]   |    v2      |![](imgs/loss_64_64_updated.png)  | ![](imgs/acc_64_64_200_updated.png)|
+|  16     | 16            |  [200x200]   |    v2      |![](imgs/loss_final.png)      | ![](imgs/acc_final.png)|
 
 
 ## Deployment
