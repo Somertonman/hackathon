@@ -40,12 +40,12 @@ The dataset is curated and structured into three age groups (under 18, 18-65 and
 
 ResNet was chosen for model training. A residual neural network (ResNet) is an artificial neural network (ANN) of a kind that builds on constructs known from pyramidal cells in the cerebral cortex. Residual neural networks do this by utilizing skip connections, or shortcuts to jump over some layers, which results in better accuracy and speed.
 
-### Training
+### Training and fitting
 
-| First Header  | Accuracy      | Loss |
-| ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | ![Kiku](imgs/acc_35_32.png) |
-| Content Cell  | Content Cell  | |
+| Epochs    | Batch size| Loss          | Accuracy         |
+| ------------- | ------------- | -------------    | ------------- |
+|  35     | 32  | ![Kiku](imgs/acc_35_32.png) ||
+| Content Cell  | Content Cell  | | |
 
 
 ## Deployment
