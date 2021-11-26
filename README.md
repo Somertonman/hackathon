@@ -40,6 +40,14 @@ The dataset is curated and structured into three age groups (under 18, 18-65 and
 
 ResNet was chosen for model training. A residual neural network (ResNet) is an artificial neural network (ANN) of a kind that builds on constructs known from pyramidal cells in the cerebral cortex. Residual neural networks do this by utilizing skip connections, or shortcuts to jump over some layers, which results in better accuracy and speed.
 
+### Training
+
+| First Header  | Accuracy      | Loss |
+| ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | ![Kiku](imgs/acc_35_32.png) |
+| Content Cell  | Content Cell  | |
+
+
 ## Deployment
 
 Streamlit is an easy-to-use framework, perfect for building web apps without struggling with layout, event handlers, or document trees.
