@@ -40,6 +40,29 @@ The dataset is curated and structured into three age groups (under 18, 18-65 and
 
 ResNet was chosen for model training. A residual neural network (ResNet) is an artificial neural network (ANN) of a kind that builds on constructs known from pyramidal cells in the cerebral cortex. Residual neural networks do this by utilizing skip connections, or shortcuts to jump over some layers, which results in better accuracy and speed.
 
+### Training and fitting
+
+
+| Epochs  | Batch size.   | Image size   | DS updated | Loss                         | Accuracy                |
+| ------- | ------------- | ------------ | ---------  | ----                         | -------------           |
+|  35     | 32            |  [100x100]   |    v1      |![](imgs/loss_35_32.png)      | ![](imgs/acc_35_32.png)|
+|  35     | 64            |  [100x100]   |    v1      |![](imgs/loss_35_64.png)      | ![](imgs/acc_35_64.png)|
+|  64     | 64            |  [100x100]   |    v1      |![](imgs/loss_64_64.png)      | ![](imgs/acc_64_64.png)|
+|  64     | 64            |  [200x200]   |    v1      |![](imgs/loss_64_64_200.png)  | ![](imgs/acc_64_64_200.png)|
+|  64     | 64            |  [200x200]   |    v2      |![](imgs/loss_64_64_updated.png)  | ![](imgs/acc_64_64_updated.png)|
+|  16     | 16            |  [200x200]   |    v2      |![](imgs/loss_final.png)      | ![](imgs/acc_final.png)|
+
+### Confusion matrix
+
+#### Train data
+
+<img src="imgs/Train confusion matrix - final.png" width="500" height="600">
+
+#### Validation data 
+
+<img src="imgs/Test confusion matrix.png" width="500" height="600">
+
+
 ## Deployment
 
 Streamlit is an easy-to-use framework, perfect for building web apps without struggling with layout, event handlers, or document trees.
@@ -48,6 +71,10 @@ Its friendly methods make it a great tool to explore datasets, demonstrate machi
 * https://streamlit.io/
 * https://towardsdatascience.com/data-apps-with-pythons-streamlit-b14aaca7d083
 * https://towardsdatascience.com/image-classification-of-uploaded-files-using-streamlits-killer-new-feature-7dd6aa35fe0
+
+## Web app
+
+Age group detection web service is available http://207.154.237.158:8501/
 
 
 ## References
