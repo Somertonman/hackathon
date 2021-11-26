@@ -72,6 +72,10 @@ Its friendly methods make it a great tool to explore datasets, demonstrate machi
 * https://towardsdatascience.com/data-apps-with-pythons-streamlit-b14aaca7d083
 * https://towardsdatascience.com/image-classification-of-uploaded-files-using-streamlits-killer-new-feature-7dd6aa35fe0
 
+## Web app
+
+Age group detection web service is available http://207.154.237.158:8501/
+
 
 ## References
 
